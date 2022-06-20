@@ -6,7 +6,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['"Titillium Web"'],
+        serif: ['"Patua One"'],
+        display: ["Grape Nuts"],
+      },
+    },
     colors: {
       lavendergray: "#CECEDF",
       darkbluegray: "#5B5F97",
@@ -44,5 +50,13 @@ module.exports = {
       rose: colors.rose,
     },
   },
+  variants: {
+    extend: {
+      fontFamily: ["hover", "focus"],
+    },
+  },
   plugins: [],
+  corePlugins: {
+    fontFamily: true,
+  },
 };
