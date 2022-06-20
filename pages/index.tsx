@@ -1,7 +1,9 @@
 const Index = () => {
   return (
-    <div className="flex flex-col w-screen bg-blue-100">
-      <div className="h-[30vh] w-screen bg-cover bg-[url('/main.jpeg')]"></div>
+    <div className="flex flex-col bg-blue-100">
+      <div>
+        <img src="/main.jpeg" className="lg:h-screen lg:w-screen lg:object-cover md:object-contain" />
+      </div>
       <div className="mx-auto w-4/5">
         <ul className="flex justify-evenly">
           <li>Fotos</li>
