@@ -1,27 +1,23 @@
+import { Layout } from "../components/Layout";
+
 const Index = () => {
   return (
-    <div className="flex flex-col bg-blue-100">
-      <div>
-        <img src="/main.jpeg" className="lg:h-screen lg:w-screen lg:object-cover md:object-contain" />
-      </div>
+    <Layout>
+      <h1 className="text-3xl text-center m-5">Kiw Trio</h1>
       <div className="mx-auto w-4/5">
-        <ul className="flex justify-evenly">
-          <li>Fotos</li>
-          <li>Videos</li>
-          <li>Tienda</li>
-          <li>Jazz</li>
-          <li>More jazz</li>
+        <ul className="flex justify-evenly mb-10">
+          <li className="text-3xl">Fotos</li>
+          <li className="text-3xl">Videos</li>
+          <li className="text-3xl">Tienda</li>
+          <li className="text-3xl">Jazz</li>
+          <li className="text-3xl">More jazz</li>
         </ul>
       </div>
-      <div>
-        <h1 className="text-center text-5xl">Kiw Trio</h1>
-      </div>
 
-      <div className="flex overflow-auto snap-x gap-6 remove-scrollbar">
-        <div className="md:ml-[50%] snap-center">
+      <div className="flex overflow-auto snap-x remove-scrollbar">
+        <div className="justify-center snap-center">
           <iframe
-            height="315"
-            width="560"
+            className="w-auto obect-contain"
             src="https://www.youtube.com/embed/sc88ygob9RQ"
             title="YouTube video player"
           ></iframe>
@@ -51,7 +47,7 @@ const Index = () => {
           ></iframe>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
