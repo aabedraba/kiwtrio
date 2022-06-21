@@ -14,6 +14,7 @@ module.exports = {
       },
     },
     colors: {
+      ...colors,
       lavendergray: "#CECEDF",
       darkbluegray: "#5B5F97",
       maximumyellow: "#5B5F97",
@@ -21,7 +22,6 @@ module.exports = {
       bittersweet: "#FF6B6C",
       darkblue: "#2077F9",
       lightred: "#FF5656",
-      ...colors,
     },
   },
   variants: {
