@@ -12,7 +12,7 @@ const Index = () => {
         />
       </div>
       <Navbar />
-      <h1 className="text-3xl text-center m-5">Kiw Trio</h1>
+      <h1 className="text-5xl text-center m-5">Kiw Trio</h1>
       <div className="p-12">
         <div className="text-center mb-5">
           <h2 className="text-xl">WATCH</h2>
