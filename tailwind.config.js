@@ -22,6 +22,7 @@ module.exports = {
       bittersweet: "#FF6B6C",
       darkblue: "#2077F9",
       lightred: "#FF5656",
+      darkperi: "#202031",
     },
   },
   variants: {
