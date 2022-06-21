@@ -21,7 +21,7 @@ const Videos = () => {
           {videos.videos[selectedVideo].description}
         </p>
       </div>
-      <h1 className="text-3xl text-center p-5 mt-10">All videos</h1>
+      <h1 className="text-5xl text-center p-5 mt-10">All videos</h1>
       <div className="lg:flex lg:flex-wrap">
         {videos.videos.map((video, index) => {
           const videoId: string = video.src.substring(
