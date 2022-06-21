@@ -13,7 +13,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 h1 {
-  @apply font-display;
+  @apply font-display text-5xl text-center m-5;
 }
 
 h2 {
