@@ -1,4 +1,4 @@
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <div className="mx-auto w-4/5">
       <ul className="flex justify-evenly mb-10">
@@ -11,5 +11,3 @@ const Navbar = () => {
     </div>
   );
 };
-
-export default Navbar;
