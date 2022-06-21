@@ -1,5 +1,5 @@
 import { data } from "../../data";
-const Videos = () => {
+export const Videos = () => {
   return (
     <div className="flex overflow-auto snap-x remove-scrollbar justify-center snap-center">
       {data.videos.map((video) => {
@@ -16,5 +16,3 @@ const Videos = () => {
     </div>
   );
 };
-
-export default Videos;
