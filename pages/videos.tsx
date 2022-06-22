@@ -1,5 +1,4 @@
 import { Layout } from "../components/Layout";
-import { Navbar } from "../components/Navbar";
 import { useState } from "react";
 import { videos } from "../data/videos";
 
@@ -7,7 +6,6 @@ const Videos = () => {
   const [selectedVideo, setSelectedVideo] = useState<number>(0);
   return (
     <Layout>
-      <Navbar />
       <div className="mt-10 bg-darkperi py-8 text-white" id="selectedVideo">
         <iframe
           className="w-auto obect-contain mx-auto border-darkbluegray border-4 rounded-sm md:w-4/6 md:h-72 lg:h-96 xl:h-screen xl:w-5/6"
