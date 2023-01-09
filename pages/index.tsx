@@ -13,7 +13,7 @@ const Index = () => {
         <div className="p-10">
           <div className="text-center mb-5 space-y-2">
             <p className="text-xl">WATCH</p>
-            <p className="text-xl">"Litúrgia"</p>
+            <p className="text-xl">"Litrgia"</p>
             <p className="text-xl">From our upcoming release!</p>
           </div>
           <iframe
